@@ -1,0 +1,62 @@
+html {
+    color: black;
+    font-size: 1em;
+}
+body{
+
+}
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+    background-color: #eee;
+}
+#content{
+    padding: 5px;
+}
+a {
+    color: maroon;
+    font-weight: bold;
+    text-decoration: none
+}
+a:hover , a:active {
+    text-decoration: underline;
+}
+
+#header{
+    width: 35%;
+    display: inline-block;
+}
+nav {
+    background-color: #B1C0D3;
+    display: inline-block;
+    float: right;
+    width: 60%;
+  }
+
+img {
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid #000000;
+    background: white;
+    padding: 5px
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul { /* nested list - to be more specific*/
+    list-style: none;
+}
+
+/* 
+TAG example p { }
+CLASS example .class { }
+ID example #ID { }
+*/
